@@ -1,4 +1,4 @@
-package OrderPlace.eBay;
+package com.qa.OrderPlace.eBay;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

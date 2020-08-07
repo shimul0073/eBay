@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16317" started-at="2020-08-05T02:03:17Z" finished-at="2020-08-05T02:03:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16317" started-at="2020-08-05T02:03:17Z" finished-at="2020-08-05T02:03:33Z">
+      <class name="com.qa.OrderPlace.eBay.SignIn">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.qa.OrderPlace.eBay.SignIn@66a3ffec]" name="signIn" duration-ms="16280" started-at="2020-08-04T22:03:17Z" finished-at="2020-08-04T22:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+      </class> <!-- com.qa.OrderPlace.eBay.SignIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
