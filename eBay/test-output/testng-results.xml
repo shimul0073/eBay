@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16317" started-at="2020-08-05T02:03:17Z" finished-at="2020-08-05T02:03:33Z">
+  <suite name="Suite" duration-ms="110794" started-at="2020-11-24T01:20:35Z" finished-at="2020-11-24T01:22:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16317" started-at="2020-08-05T02:03:17Z" finished-at="2020-08-05T02:03:33Z">
-      <class name="com.qa.OrderPlace.eBay.SignIn">
-        <test-method status="PASS" signature="signIn()[pri:0, instance:com.qa.OrderPlace.eBay.SignIn@66a3ffec]" name="signIn" duration-ms="16280" started-at="2020-08-04T22:03:17Z" finished-at="2020-08-04T22:03:33Z">
+    <test name="Validating Home Page" duration-ms="110794" started-at="2020-11-24T01:20:35Z" finished-at="2020-11-24T01:22:26Z">
+      <class name="com.qa.OrderPlace.eBay.HomePageLogin">
+        <test-method status="PASS" signature="signIn()[pri:0, instance:com.qa.OrderPlace.eBay.HomePageLogin@77a57272]" name="signIn" duration-ms="56451" started-at="2020-11-23T20:21:13Z" finished-at="2020-11-23T20:22:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-      </class> <!-- com.qa.OrderPlace.eBay.SignIn -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.qa.OrderPlace.eBay.HomePageLogin -->
+      <class name="com.qa.OrderPlace.eBay.AddToCart">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.qa.OrderPlace.eBay.AddToCart@de3a06f]" name="initialize" is-config="true" duration-ms="29861" started-at="2020-11-23T20:20:35Z" finished-at="2020-11-23T20:21:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.qa.OrderPlace.eBay.HomePageLogin@77a57272]" name="initialize" is-config="true" duration-ms="8126" started-at="2020-11-23T20:21:05Z" finished-at="2020-11-23T20:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="addCart()[pri:0, instance:com.qa.OrderPlace.eBay.AddToCart@de3a06f]" name="addCart" duration-ms="11392" started-at="2020-11-23T20:22:10Z" finished-at="2020-11-23T20:22:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.OrderPlace.eBay.AddToCart@de3a06f]" name="tearDown" is-config="true" duration-ms="604" started-at="2020-11-23T20:22:21Z" finished-at="2020-11-23T20:22:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.OrderPlace.eBay.HomePageLogin@77a57272]" name="tearDown" is-config="true" duration-ms="4239" started-at="2020-11-23T20:22:22Z" finished-at="2020-11-23T20:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.OrderPlace.eBay.AddToCart -->
+    </test> <!-- Validating Home Page -->
+  </suite> <!-- Suite -->
 </testng-results>

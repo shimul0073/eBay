@@ -1,0 +1,7 @@
+16:46:54.899 [main] INFO  com.qa.eBay.Base.Base - SignIn Clicked Successfully
+16:47:56.339 [main] INFO  com.qa.eBay.Base.Base - Cart Clicked Successfully
+16:54:46.866 [TestNG] INFO  com.qa.eBay.Base.Base - SignIn Clicked Successfully
+16:55:47.764 [TestNG] INFO  com.qa.eBay.Base.Base - Cart Clicked Successfully
+17:00:02.761 [TestNG] INFO  com.qa.eBay.Base.Base - SignIn Clicked Successfully
+17:01:05.719 [TestNG] INFO  com.qa.eBay.Base.Base - Cart Clicked Successfully
+17:01:17.176 [TestNG] INFO  com.qa.eBay.Base.Base - Start Shopping Clicked Successfully

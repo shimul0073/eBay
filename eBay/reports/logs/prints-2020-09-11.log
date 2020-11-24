@@ -1,0 +1,6 @@
+17:11:14.521 [main] INFO  com.qa.eBay.Base.Base - Click Continue Clicked Successfully
+17:26:09.803 [TestNG] INFO  com.qa.eBay.Base.Base - SignIn Clicked Successfully
+17:29:38.927 [TestNG] INFO  com.qa.eBay.Base.Base - SignIn Clicked Successfully
+17:31:35.926 [main] INFO  com.qa.eBay.Base.Base - Cart Clicked Successfully
+15:42:39.016 [main] INFO  com.qa.eBay.Base.Base - SignIn Clicked Successfully
+15:42:49.474 [main] INFO  com.qa.eBay.Base.Base - Input Text Sent to User TextBox Email Successfully

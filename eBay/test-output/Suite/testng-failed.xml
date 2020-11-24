@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.eBay.Reports.Listeners"/>
+  </listeners>
+  <test name="Validating Home Page(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.OrderPlace.eBay.AddToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.qa.OrderPlace.eBay.AddToCart -->
+      <class name="com.qa.OrderPlace.eBay.HomePageLogin">
+        <methods>
+          <include name="signIn"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.OrderPlace.eBay.HomePageLogin -->
+    </classes>
+  </test> <!-- Validating Home Page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

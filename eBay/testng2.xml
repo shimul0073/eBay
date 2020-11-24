@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" >
+<listeners>
+   <listener class-name = "com.qa.eBay.Reports.Listeners"/>
+</listeners>
+ 
+  <test name="Validating Home Page">
+    <classes>
+      <class name="com.qa.OrderPlace.eBay.HomePageLogin"/>
+      <class name="com.qa.OrderPlace.eBay.AppTest"/>
+      <class name="com.qa.OrderPlace.eBay.AddToCart"/>
+    </classes>
+</test>
+</suite> <!-- Suite -->
